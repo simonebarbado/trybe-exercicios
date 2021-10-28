@@ -1,0 +1,1 @@
+Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/). Nesse bloco aprendi a instalar e configurar o Git no computador, salvar os projetos no repositório Git local, controlar as alterações e versões dos arquivos, e enviar seus projetos para o repositório remoto do GitHub .
