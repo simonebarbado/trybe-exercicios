@@ -2,3 +2,4 @@ Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.
 
 No segundo dia aprendi a criar regras de estilo para tags HTML utilizando o CSS, utilizar os seletores de tag , `id` e `class` para aplicar regras de CSS, alterar características da fonte e das cores de páginas web e utilizar CSS inline e externo.
 
+No terceiro dia aprendi como funciona o Box Model do CSS e como os elementos da página se relacionam visualmente. Posicionar elementos na página de diferentes formas. E por fim, combinar e agrupar seletores de CSS para criar regras bem definidas.
