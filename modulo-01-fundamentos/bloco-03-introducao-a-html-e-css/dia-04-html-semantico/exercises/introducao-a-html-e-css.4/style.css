@@ -1,5 +1,12 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(68, 142, 190);
+}
+
+header, nav {
+    text-align: center;
+    background-color: rgb(0, 33, 95);
+    color: white;
 }
 
 nav ul li {
@@ -7,21 +14,30 @@ nav ul li {
     margin-right: 24px;
 }
 
+section h3 {
+    margin-top: 5px;
+}
+
+.foto {
+    border-radius: 20px;
+    width: 300px;
+}
+
 .box {
-    color: white;
-    background-color: rgb(93, 148, 211);
-    border-radius: 16px;
+    color: rgb(78, 78, 78);
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid rgb(93, 148, 211);
     padding: 16px;
-    width: 400px;
+    width: 300px;
     margin: 30px;
+    display: inline-block;
+    float: left;
+    text-align: justify;
 }
 
-.right {
-    float: inline-end;
-    display: inline-block;
-}
-
-.left {
-    float: inline-start;
-    display: inline-block;
+.background {
+    position: fixed;
+    width: 130%;
+    margin: -30px -20px ;
 }
