@@ -3,6 +3,7 @@ body {
 }
 
 nav ul li {
-    display: inline
+    display: inline;
+    margin-right: 24px;
 }
 
