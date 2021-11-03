@@ -7,3 +7,21 @@ nav ul li {
     margin-right: 24px;
 }
 
+.box {
+    color: white;
+    background-color: rgb(93, 148, 211);
+    border-radius: 16px;
+    padding: 16px;
+    width: 400px;
+    margin: 30px;
+}
+
+.right {
+    float: inline-end;
+    display: inline-block;
+}
+
+.left {
+    float: inline-start;
+    display: inline-block;
+}
