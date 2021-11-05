@@ -90,3 +90,19 @@ section h3 {
     top: -200px;
     z-index: 1;
 }
+
+#info-gerais {
+    color: rgb(214, 172, 100);
+    border: 1px solid rgba(255, 255, 255, 0.685);
+    border-radius: 20px;
+    padding: 16px;
+    width: 700px;
+    height: 250px;
+    margin: 30px;
+    display: inline-block;
+    position: relative;
+    top: -400px;
+    left: 600px;
+    text-align: justify;
+    line-height: 22px;
+}
