@@ -1,1 +1,2 @@
 Esse bloco pertence ao módulo de `fundamentos` do curso da [Trybe](https://www.betrybe.com/). Nesse bloco aprendi a escrever códigos em JavaScript que usam variáveis, constantes e tipos primitivos. Utilizar conceitos da linguagem como a tipagem dinâmica e operadores lógicos/aritméticos/de atribuição no seu código e criar códigos que usam estruturas condicionais, como o if/else .
+No segundo dia aprendi a manipular arrays (listas) e utilizar o comando for.
