@@ -60,8 +60,16 @@
         let dados = document.getElementsByTagName("p")[0];
         dados.innerText = "Daqui dois anos me vejo uma programadora top!";
        }
-       mudarTextoTag();
-       //Lembrar de chamar a função após finalizá-la
+       mudarTextoTag(); //Lembrar de chamar a função após finalizá-la
+
+    // Exercício 02 - NÃO FUNCIONOU
+       function mudarCorDoQuadrado() {
+           let quadradoAmarelo = document.getElementsByClassName('main-content')[0];
+           quadradoAmarelo.style.background = "rgb(76,164,109)"; //rgb precisa estar entre aspas
+       }
+       mudarCorDoQuadrado();
+
+
     </script>
   </body>
 </html>
