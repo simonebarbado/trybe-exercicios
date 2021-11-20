@@ -56,19 +56,49 @@
         */
 
     // Exercício 01
-       function mudarTextoTag() {
+       function mudarTextoTagP() {
         let dados = document.getElementsByTagName("p")[0];
         dados.innerText = "Daqui dois anos me vejo uma programadora top!";
        }
-       mudarTextoTag(); //Lembrar de chamar a função após finalizá-la
+       mudarTextoTagP(); //Lembrar de chamar a função após finalizá-la
 
-    // Exercício 02 - NÃO FUNCIONOU
-       function mudarCorDoQuadrado() {
+    // Exercício 02
+       function mudarCorDoQuadradoAmarelo() {
            let quadradoAmarelo = document.getElementsByClassName('main-content')[0];
            quadradoAmarelo.style.background = "rgb(76,164,109)"; //rgb precisa estar entre aspas
        }
-       mudarCorDoQuadrado();
+       mudarCorDoQuadradoAmarelo();
 
+    // Exercício 03
+       function mudarCordoQuadradoVermelho() {
+         let quadradoVermelho = document.getElementsByClassName('center-content')[0];
+         quadradoVermelho.style.background = 'white';
+       }
+       mudarCordoQuadradoVermelho(); 
+
+    // Exercício 04
+    function mudarTextoTagH1() {
+      let titulo = document.getElementsByTagName("h1")[0];
+      titulo.innerText = 'Exercício 5.1 - JavaScript';
+    }
+    mudarTextoTagH1();
+
+    // Exercício 05
+    function letrasMaiusculas() {
+      let letrasMaiusculas = document.getElementsByTagName('p')[0];
+      letrasMaiusculas.innerHTML = letrasMaiusculas.innerHTML.toUpperCase(); // Ajuda do gabarito para definir essa linha
+    }
+    letrasMaiusculas()
+
+    // Exercício 06
+    function mostrarTagsNoConsole() {
+      let texto = document.getElementsByTagName('p');
+      for (let i of texto) { // Ajuda do gabarito para utilizar o for
+        console.log(i.innerText);
+      }
+      
+    }
+    mostrarTagsNoConsole();
 
     </script>
   </body>
