@@ -101,7 +101,31 @@
         for (let i = 0; i < 3; i +=1) {
             const elementH3 = document.createElement('h3');
             elementMain.appendChild(elementH3);
+            elementH3.innerHTML = 'Ver na tela'
         }
+
+        // Parte 02
+        // Exercício 02
+        elementH1.className = 'title';
+        // Exercício 02
+        const h3 = document.getElementsByTagName('h3');
+        for (let i in h3) {
+            h3[i].className = 'description';
+        }
+        // Exercício 03
+        const sectionLeft = document.querySelector('.left-content'); // Para usar o getElementByClassName tem que lembrar de colocar o índice [0], enquanto o querySelector já faz isso
+        elementMain.removeChild(sectionLeft);
+        // Exercício 04
+        const sectionRight = document.querySelector('.right-content');
+        sectionRight.style.marginRight = 'auto';
+        sectionRight.style.marginLeft = 'auto'; // Implementei por conta
+        sectionRight.style.width = 'fit-content' // Implementei por conta
+        // Exercício 05
+        const sectionCenter = document.querySelector('.center-content');
+        sectionCenter.parentNode.style.backgroundColor = 'green';
+        // Exercício 06
+        elementUl.lastChild.remove() // Peguei o comando remove() no gabarito
+        elementUl.lastChild.remove()
     </script>
   </body>
 </html>
