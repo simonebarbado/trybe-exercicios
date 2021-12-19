@@ -3,7 +3,7 @@ const fatorialN = (n) => {
   for (n; n > 0; n-=1) {
     fatorial = fatorial * n;
   }
- console.log(fatorial);
+ console.log(fatorial); 
 }
 fatorialN(4)
 
@@ -21,9 +21,21 @@ let clickCount = 0;
 const button = document.querySelector('button');
 const p = document.querySelector('p');
 button.addEventListener('click', () => {
-  clickCount += 1;
-  p.innerHTML = clickCount;
+  p.innerHTML = clickCount += 1;
 })
+
+const findX = (string) => {
+  let phrase = ['Tryber', 'x', 'aqui!'];
+  for (let word of phrase) {
+    if (word === 'x') {
+      word = string;
+    }
+    let newPhrase = [];
+    newPhrase.push(word)
+  }
+  return newPhrase;
+}
+console.log(findX('Bebeto'));
 
 /* 
 Crie um código JavaScript com a seguinte especificação:
