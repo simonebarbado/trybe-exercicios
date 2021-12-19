@@ -15,3 +15,12 @@ const newEmployees = (callback) => {
 };
 
 console.log(newEmployees(fullNameAndEmail));
+
+// Exercício 02
+
+const raffle = (number) => {
+  const randomNumber = Math.floor((Math.random() * 5)+1);
+  return number === randomNumber ? 'Parabéns você ganhou' : 'Tente novamente';
+}
+
+console.log(raffle(5));
