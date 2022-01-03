@@ -62,11 +62,11 @@ const books = [
 ];
 
 // Adicione o código do exercício aqui:
-const fantasyOrScienceFictionAuthors = () => {
+const oldBooks = () => {
   return books
   .filter((books) => (books.genre == 'Ficção Científica' || books.genre == 'Fantasia'))
   .map((book) => (book.author.name))
   .sort();
 }
 
-console.log(fantasyOrScienceFictionAuthors());
+console.log(oldBooks());
