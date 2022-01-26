@@ -23,11 +23,12 @@ class App extends React.Component {
   passando a própria função entre chaves `{}` */
   render() {
     return (
-      <div>
-        <button onClick={handleClick}>Meu botão 1</button>
-        <button onClick={handleClick2}>Meu botão 2</button>
-        <button onClick={handleClick3}>Meu botão 3</button>
-      </div>
+      console.log(this.props) // Acessa dentro do objeto this o Propertyes
+      // <div>
+      //   <button onClick={handleClick}>Meu botão 1</button>
+      //   <button onClick={handleClick2}>Meu botão 2</button>
+      //   <button onClick={handleClick3}>Meu botão 3</button>
+      // </div>
     );
   }
 }
