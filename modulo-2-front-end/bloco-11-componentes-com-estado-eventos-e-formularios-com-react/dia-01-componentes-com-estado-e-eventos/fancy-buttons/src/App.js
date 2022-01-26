@@ -23,7 +23,7 @@ class App extends React.Component {
   passando a própria função entre chaves `{}` */
   render() {
     return (
-      console.log(this.props) // Acessa dentro do objeto this o Propertyes
+      console.log(this) // Mostra tudo o que contém nessa classe
       // <div>
       //   <button onClick={handleClick}>Meu botão 1</button>
       //   <button onClick={handleClick2}>Meu botão 2</button>
